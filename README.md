@@ -1,13 +1,11 @@
-Arquitetura de Alta Disponibilidade para site do WordPress.
-
 <img width="886" height="873" alt="image" src="https://github.com/user-attachments/assets/40e378e8-8e54-4bcf-a00b-9d95a6aec62d" />
 
-Objetivos do projeto:
-Criar uma infraestrutura cloud altamente disponível (99,99%);
-Garantir baixa latência e carregamento rápido das páginas;
-Implementar múltiplas camadas de segurança contra-ataques;
-Projetar uma arquitetura escalável para suportar crescimento;
-Aplicar boas práticas de arquitetura na AWS;
+# Objetivos do projeto:
+* Criar uma infraestrutura cloud altamente disponível (99,99%);
+* Garantir baixa latência e carregamento rápido das páginas;
+* Implementar múltiplas camadas de segurança contra-ataques;
+* Projetar uma arquitetura escalável para suportar crescimento;
+* Aplicar boas práticas de arquitetura na AWS;
 
 # 🚀 Arquitetura AWS Enterprise para WordPress (Alta Disponibilidade)
 
