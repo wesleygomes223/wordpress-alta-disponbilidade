@@ -1,4 +1,8 @@
-<img width="886" height="873" alt="image" src="https://github.com/user-attachments/assets/40e378e8-8e54-4bcf-a00b-9d95a6aec62d" />
+# 🚀 Arquitetura AWS Enterprise para WordPress (Alta Disponibilidade)
+
+Este guia detalha a implementação de uma infraestrutura de alta disponibilidade, escalável e segura para WordPress na AWS. A arquitetura utiliza boas práticas de nível *Enterprise*, garantindo entrega de conteúdo global com baixa latência, proteção contra ataques e gestão segura de credenciais.
+
+---
 
 # Objetivos do projeto:
 * Criar uma infraestrutura cloud altamente disponível (99,99%);
@@ -7,9 +11,7 @@
 * Projetar uma arquitetura escalável para suportar crescimento;
 * Aplicar boas práticas de arquitetura na AWS;
 
-# 🚀 Arquitetura AWS Enterprise para WordPress (Alta Disponibilidade)
-
-Este guia detalha a implementação de uma infraestrutura de alta disponibilidade, escalável e segura para WordPress na AWS. A arquitetura utiliza boas práticas de nível *Enterprise*, garantindo entrega de conteúdo global com baixa latência, proteção contra ataques e gestão segura de credenciais.
+---
 
 ## 🗺️ Fluxo da Arquitetura
 
@@ -28,6 +30,8 @@ Este guia detalha a implementação de uma infraestrutura de alta disponibilidad
 **ElastiCache Redis** (Cache de objetos em RAM, resposta de 1-2ms)
 ↓ *Se não estiver no Redis:*
 **Amazon EFS** (Arquivos do WordPress compartilhado) & **Amazon RDS Multi-AZ** (Banco de dados)
+
+<img width="886" height="873" alt="image" src="https://github.com/user-attachments/assets/40e378e8-8e54-4bcf-a00b-9d95a6aec62d" />
 
 ---
 
